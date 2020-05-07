@@ -6,3 +6,7 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+.idea/
+01beforeAdvice/mvnw
+01beforeAdvice/.mvn/
+01beforeAdvice/mvnw.cmd
