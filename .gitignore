@@ -10,3 +10,6 @@ buildNumber.properties
 01beforeAdvice/mvnw
 01beforeAdvice/.mvn/
 01beforeAdvice/mvnw.cmd
+springAOP/.mvn/
+springAOP/mvnw.cmd
+springAOP/mvnw
