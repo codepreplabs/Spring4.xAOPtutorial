@@ -5,14 +5,16 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.fail;
+
 @SpringBootTest
-public class BeforeAspectTest {
+public class AfterAspectTest {
 
     @Autowired
     private Person person;
 
     @Test
-    void testBeforeAspect() {
-        person.beforeAspect();
+    public void testAfterAdvice(){
+        person.afterAspect();
     }
 }

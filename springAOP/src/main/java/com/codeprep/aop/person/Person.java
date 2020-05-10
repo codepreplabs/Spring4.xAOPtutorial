@@ -7,9 +7,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class Person implements User {
 
-    private static final Logger logger = LoggerFactory.getLogger(Person.class);
+    private static final Logger LOG = LoggerFactory.getLogger(Person.class);
 
     public void beforeAspect(){
-            logger.info("method executed after the aspect!");
+            LOG.info("method executed after the aspect!");
+    }
+    
+    public void afterAspect(){
+        LOG.info("executing afterAspect method");
     }
 }
